@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
+
+html {
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: #87d1a0;
+}
+
+.dragon-fly-poster {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.moving-title {
+    display: block;
+    width: 100%;
+    margin: 10px;
+    overflow: hidden;
+
+
+    /* TODO: Remove After Debugging */
+    border-color: black;
+    border: solid;
+    border-width: 4px;
+}
+
+.moving-title h1 {
+    position: relative;
+}
+
+/* Interactive Graphic */
+
+.interactive-dragonfly {
+    display: block;
+    width: 95%;
+    height: 800px;
+    margin: auto;
+
+    /* TODO: Remove After Debugging */
+    border-color: black;
+    border: solid;
+}
+
+
+/* Habitat */
+
+.habitat-container {
+    display: block;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: black;
+    cursor: pointer;
+
+
+    /* TODO: Remove After Debugging */
+    border-color: black;
+    border: solid;
+}
+
+.habitat-container h2 {
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+
+
+.habitat-container .hidden-content {
+    display: none;  /* Update to display = block to make it take up space */
+    visibility: hidden; /* Update visibility to visible to make content visible to users */
+    width: 345px;
+    height: fit-content;
+    background-color: #c3f8d5;
+    opacity: 80%;
+
+
+    /* TODO: Remove After Debugging */
+    border-color: black;
+    border: solid;
+    border-width: 4px;
+}
+
+.habitat-container .hidden-content p {
+    padding-left: 4px;
+    line-height: 20px;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Population Container */
+
+.population-container {
+    display: block;
+    position: absolute;
+    left: 35%;
+    bottom: 15%;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: black;
+    cursor: pointer;
+
+
+    /* TODO: Remove After Debugging */
+    border-color: black;
+    border: solid;
+}
+
+.population-container h2 {
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+
+.population-container .hidden-content {
+    display: none;  /* Update to display = block to make it take up space */
+    visibility: hidden; /* Update visibility to visible to make content visible to users */
+    width: 345px;
+    height: fit-content;
+    background-color: #c3f8d5;
+    opacity: 80%;
+
+
+    /* TODO: Remove After Debugging */
+    border-color: black;
+    border: solid;
+    border-width: 4px;
+}
+
+.population-container .hidden-content p {
+    padding-left: 4px;
+    line-height: 20px;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Population Container */
+
+.lifecycle-container {
+    display: block;
+    position: absolute;
+    right: 15%;
+    bottom: 15%;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: black;
+    cursor: pointer;
+
+
+    /* TODO: Remove After Debugging */
+    border-color: black;
+    border: solid;
+}
+
+.lifecycle-container h2 {
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+
+.lifecycle-container .hidden-content {
+    display: none;  /* Update to display = block to make it take up space */
+    visibility: hidden; /* Update visibility to visible to make content visible to users */
+    width: 345px;
+    height: fit-content;
+    background-color: #c3f8d5;
+    opacity: 80%;
+
+
+    /* TODO: Remove After Debugging */
+    border-color: black;
+    border: solid;
+    border-width: 4px;
+}
+
+.lifecycle-container .hidden-content p {
+    padding-left: 4px;
+    line-height: 20px;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+
+
+/* identify Container */
+
+.How-to-identify {
+    display: block;
+    position: absolute;
+    left: 10%;
+    bottom: 30%;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: black;
+    cursor: pointer;
+
+
+    /* TODO: Remove After Debugging */
+    border-color: black;
+    border: solid;
+}
+
+.How-to-identify h3 {
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+
+.How-to-identify .hidden-content {
+    display: none;  /* Update to display = block to make it take up space */
+    visibility: hidden; /* Update visibility to visible to make content visible to users */
+    width: 345px;
+    height: fit-content;
+    background-color: #c3f8d5;
+    opacity: 80%;
+
+
+    /* TODO: Remove After Debugging */
+    border-color: black;
+    border: solid;
+    border-width: 4px;
+}
+
+.How-to-identify .hidden-content p {
+    padding-left: 4px;
+    line-height: 20px;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+
+/* Threats Container */
+
+.Threats {
+    display: block;
+    position: absolute;
+    left: 70%;
+    bottom: 60%;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: black;
+    cursor: pointer;
+
+
+    /* TODO: Remove After Debugging */
+    border-color: black;
+    border: solid;
+}
+
+.Threats h4 {
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+
+.Threats .hidden-content {
+    display: none;  /* Update to display = block to make it take up space */
+    visibility: hidden; /* Update visibility to visible to make content visible to users */
+    width: 345px;
+    height: fit-content;
+    background-color: #c3f8d5;
+    opacity: 80%;
+
+
+    /* TODO: Remove After Debugging */
+    border-color: black;
+    border: solid;
+    border-width: 4px;
+}
+
+.Threats .hidden-content p {
+    padding-left: 4px;
+    line-height: 20px;
+    font-size: 18px;
+    text-align: left;
+}
